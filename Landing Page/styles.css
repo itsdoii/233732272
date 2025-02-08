@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  background: transparent;
+  position: fixed;
+  top: 0;
+  height: 90px;
+  width: 100%;
+  padding: 0 64px;
+  font-size: 1.6em;
+  z-index: 2;
+  justify-content: flex-end;
+  font-family: "Montserrat", serif;
+}
+
+body {
+  background-image: url(cafe.webp);
+  background-size: cover;
+}
+
+nav {
+  width: 100%;
+  display:flex;
+  justify-content: flex-end;
+}
+
+nav ul img {
+  max-width: 100px; 
+  height: auto; 
+  margin-top: -1%;
+  margin-right: 200%;
+  filter: drop-shadow(2px 2px 20px white);
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+  justify-content: flex-end;
+}
+
+input {
+  margin-top: 1.2%;
+  height: 50px;
+  width: 500px;
+  border-radius: 50px;
+  border-style: none;
+  margin-right: 850px;
+  text-align: center;
+  font-size: large;
+}
+
+nav ul li {
+  margin-right: 15%;
+  margin-top: 27px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: orange;
+  text-decoration: underline;
+  transform: scale(6.21);
+}
