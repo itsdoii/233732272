@@ -77,3 +77,14 @@ nav ul li {
   text-decoration: underline;
   transform: scale(6.21);
 }
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: row;
+  }
+
+  nav ul li{
+    flex-direction: row;
+    font-size:x-small;
+  }
+}
