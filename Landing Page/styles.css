@@ -94,6 +94,10 @@ input {
   filter: drop-shadow(2px 2px 20px black);
 }
 
+a {
+  text-decoration: none;
+}
+
 .button-container {
   display: grid;
   place-items: center; 
@@ -119,6 +123,18 @@ button:hover {
   background-color: brown; 
   color: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+#menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#menu img{
+  display: flex;
+  width: 20%;
+  height: auto;
 }
 
 #review {
