@@ -1,0 +1,146 @@
+* {
+    font-family: "JetBrains Mono", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-image: url('bgtest.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#navbar {
+    background-color: rgba(0, 0, 0, 1); 
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+#navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#navbar ul li {
+    margin: 0 15px;
+}
+
+#navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+}
+
+#navbar ul li a:hover {
+    background-color: white;
+    transition: color 0.3s ease, text-decoration 0.3s ease, transform 0.3s ease;
+    color: black;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    border-style: groove;
+    color: black;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s ease, text-decoration 0.3s ease, transform 0.3s ease;
+}
+
+.section {
+    position: relative;
+    padding: 100px 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.section::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 2px;
+    background: white;
+    box-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
+    z-index: 1;
+}
+
+.section:last-child::after {
+    display: none;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.container ul {
+    list-style: none;
+}
+
+.container ul li {
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8); 
+}
+
+#home h1 {
+    font-size: xx-large;
+}
+
+.hero {
+    text-align: center;
+}
+
+.hero-image {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 5px solid white;
+    margin-top: -150px; 
+}
+
+.typing-effect {
+    color: yellow;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    #navbar ul {
+        flex-direction: column;
+    }
+
+    #navbar ul li {
+        margin: 10px 0;
+    }
+
+    .hero-image {
+        width: 150px;
+        height: 150px;
+    }
+}
