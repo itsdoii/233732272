@@ -38,17 +38,17 @@
         <div class="container">
             <h2>Projects</h2>
             <p>Here are some of my recent projects.</p>
-            <a href="Simple Calculator/calculator.php"><button>Simple Calculator</button></a>
-            <a href="Rectangle Calculator/rectangle.html"><button>Perimeter Calculator</button></a>
-            <a href="Temperature/temperature.html"><button>Temperature Calculator</button></a>
-            <a href="Swapping Variables/swapping.html"><button>Swapping Variables</button></a>
-            <a href="Salary Calculator/salary.html"><button>Salary Calculator</button></a>
-            <a href="BMI/bmi.html"><button>BMI Calculator</button></a>
-            <a href="String/string.html"><button>String Manipulation</button></a>
-            <a href="Bank/bank.html"><button>Bank Account Simulation</button></a>
-            <a href="Average Calculator/average.html"><button>Simple Grading System</button></a>
-            <a href="Currency/currency.html"><button>Currency Converter</button></a>
-            <a href="Travel Cost/travel.html"><button>Travel Cost Estimator</button></a>
+            <a href="simple-calculator.php"><button>Simple Calculator</button></a>
+            <a href="rectangle-calculator.php"><button>Perimeter Calculator</button></a>
+            <a href="temperature.php"><button>Temperature Calculator</button></a>
+            <a href="swapping-variables.php"><button>Swapping Variables</button></a>
+            <a href="salary-calculator.php"><button>Salary Calculator</button></a>
+            <a href="bmi.php"><button>BMI Calculator</button></a>
+            <a href="string-manipulation.php"><button>String Manipulation</button></a>
+            <a href="bank-simulation.php"><button>Bank Account Simulation</button></a>
+            <a href="average-grading.php"><button>Simple Grading System</button></a>
+            <a href="currency-converter.php"><button>Currency Converter</button></a>
+            <a href="travel-cost.php"><button>Travel Cost Estimator</button></a>
         </div>
     </section>
 
